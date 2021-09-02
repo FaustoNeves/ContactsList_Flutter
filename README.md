@@ -1,16 +1,24 @@
-# contacts_lists_in_flutter
+Contacts manager app with [Flutter](https://flutter.dev/) and [Firebase](https://firebase.google.com/?hl=en)
 
-A new Flutter project.
+1. Step is [Start installing Flutter framework](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
 
-## Getting Started
+2. Run `flutter doctor` and manage to have all items checked like below
+![Capturar](https://user-images.githubusercontent.com/66192808/131918047-56b9ed49-3440-443a-9cdf-e4f70bb93ea9.PNG)
 
-This project is a starting point for a Flutter application.
+The app was built based on these two tutorials
+- [Crud operations using Flutter](https://www.youtube.com/watch?v=ViahqKZzZ7Y&t=1233s)
+- [Flutter tutorial](https://www.youtube.com/watch?v=4VItwUtYDsY)
+- [Firebase for Flutter](https://firebase.google.com/docs/flutter/setup?hl=en-us&platform=android)
 
-A few resources to get you started if this is your first Flutter project:
+A few helpers:
+- [Email validator](https://pub.dev/packages/email_validator)
+- [uuid](https://pub.dev/packages/uuid)
+- [Unsound null safety](https://dart.dev/null-safety/unsound-null-safety)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+|Registering contact|
+|:--:|
+| <img src="https://user-images.githubusercontent.com/66192808/131915337-8b5fb00c-6f25-44f6-ba96-fd19dc7d873c.gif" alt="drawing" width="800"/>|
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|Updating and excluding contact|
+|:--:|
+| <img src="https://user-images.githubusercontent.com/66192808/131915738-19d390cb-d5c4-411f-9701-1020b337e16b.gif" alt="drawing" width="800"/>|
